@@ -103,5 +103,14 @@ export const PRODUCTS: Product[] = [
     unit: '100 مل',
     description: 'عصر هيدروليكي بارد للحفاظ على الفوائد.',
     image: 'https://picsum.photos/seed/blackseed/400/400'
+  },
+  {
+    id: '11',
+    name: 'زبدة جنة بلدي',
+    category: Category.GNA_BUTTER,
+    price: 85,
+    unit: '700 جرام',
+    description: 'زبدة جنة بلدي طبيعية عالية الجودة.',
+    image: 'images/smna gna.jpg'
   }
 ];
