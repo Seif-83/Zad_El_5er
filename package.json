@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Seif-83.github.io/ZiadMarket",
-  "name": "herb-store",
+  "homepage": "https://Seif-83.github.io/Zad_El_5er",
+  "name": "Supermarket - Zad-El-Kher",
   "version": "1.0.0",
-  "description": "عطارة الأخوة - Herbal and spices store",
+  "description": "زاد الخير- متجر إلكتروني.",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

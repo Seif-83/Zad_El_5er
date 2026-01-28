@@ -1,12 +1,19 @@
 
 export enum Category {
-  SPICES = 'بهارات',
-  HERBS = 'أعشاب طبيعية',
-  OILS = 'زيوت طبيعية',
-  HONEY = 'عسل سدر ونحل',
-  NUTS = 'مكسرات وياميش',
-  OFFERS = 'عروض خاصة',
-  GNA_BUTTER = 'Gna butter'
+  Eggs = 'البيض',
+  Cheese = 'الجبن',
+  Pickles = 'قسم المخللات',
+  Beverage = 'قسم المشروبات',
+  jam = 'مربى',
+  honey = 'عسل',
+  Tahini = 'طحينة',
+  Tuna = 'تونة',
+  Nuts = 'المكسرات',
+  rice = 'الأرز',
+  Oils = 'الزيوت',
+  Sugar = 'السكر',
+  Luncheon = 'لانشون',
+
 }
 
 export interface Product {
@@ -27,4 +34,5 @@ export interface SiteInfo {
   phone: string;
   whatsapp: string;
   address: string;
+  headerImage?: string;
 }

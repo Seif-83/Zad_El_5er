@@ -29,7 +29,7 @@ app.post('/api/benefits', async (req, res) => {
   try {
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
-      contents: `بصفتك خبير عطارة وأعشاب، اذكر 3 فوائد صحية باختصار شديد لـ "${name}". اجعل الإجابة بلهجة عربية جذابة وودودة بصيغة نقاط مختصرة.`,
+      contents: `بصفتك خبير، اذكر 3 فوائد صحية باختصار شديد لـ "${name}". اجعل الإجابة بلهجة عربية جذابة وودودة بصيغة نقاط مختصرة.`,
       config: { maxOutputTokens: 200, temperature: 0.7 },
     });
 
