@@ -48,7 +48,7 @@ const Header: React.FC = () => (
         <a href="#contact" className="hover:text-sky-600 transition-colors">اتصل بنا</a>
       </div>
       <a 
-        href={`https://wa.me/${SITE_INFO.whatsapp.replace(/\s+/g, '')}?text=مرحباً، أود الاستفسار عن منتجات عطارة الأخوة.`}
+        href={`https://wa.me/${SITE_INFO.whatsapp.replace(/\s+/g, '')}?text=مرحباً، أود الاستفسار عن منتجات زاد الخير.`}
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2 transition-all hover:scale-105"
@@ -61,7 +61,7 @@ const Header: React.FC = () => (
 );
 
 const Hero: React.FC = () => (
-  <section className="relative h-[35vh] md:h-[65vh] flex items-center justify-center overflow-hidden">
+  <section className="relative h-[45vh] md:h-[65vh] flex items-center justify-center overflow-hidden">
     <div className="absolute inset-0">
       <img 
         src="زاد الخير.jpg" 
