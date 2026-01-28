@@ -201,7 +201,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: '22',
-    name: 'بيض بلدي',
+    name: 'بيض احمر و ابيض',
     category: Category.Eggs,
     price: 125,
     unit: 'كرتونة',

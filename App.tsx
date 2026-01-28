@@ -46,6 +46,7 @@ const Header: React.FC = () => (
         <a href="#menu" className="hover:text-sky-600 transition-colors">القائمة</a>
         <a href="#offers" className="hover:text-sky-600 transition-colors">العروض</a>
         <a href="#contact" className="hover:text-sky-600 transition-colors">اتصل بنا</a>
+        <a href="#" className="hover:text-sky-600 transition-colors">( التوصيل مجانا )</a>
       </div>
       <a 
         href={`https://wa.me/${SITE_INFO.whatsapp.replace(/\s+/g, '')}?text=مرحباً، أود الاستفسار عن منتجات زاد الخير.`}
