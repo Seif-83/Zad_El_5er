@@ -85,7 +85,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '9',
     name: 'فول مدمس سادة',
-    category: Category.Beverage,
+    category: Category.Canned_food,
     price: 20,
     unit: '23 جرام بروتين',
     description: 'فول مدمس سادة عالي الجودة ومصدر ممتاز للبروتين.',

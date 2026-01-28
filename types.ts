@@ -13,6 +13,7 @@ export enum Category {
   Oils = 'الزيوت',
   Sugar = 'السكر',
   Luncheon = 'لانشون',
+  Canned_food = 'معلبات'
 
 }
 
