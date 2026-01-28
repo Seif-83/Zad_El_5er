@@ -360,7 +360,7 @@ export default function App() {
           <div className="relative w-full md:max-w-md">
             <input 
               type="text" 
-              placeholder="ابحث عن البيض، الجبن، مربى..."
+              placeholder="ابحث عن البيض، الجبن، المربى..."
               className="w-full bg-sky-50 border-none rounded-xl py-3 px-12 focus:ring-2 focus:ring-sky-500 transition-all text-sky-900"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
