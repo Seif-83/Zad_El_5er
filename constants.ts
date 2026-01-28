@@ -4,7 +4,7 @@ import { Category, Product, SiteInfo } from './types';
 export const SITE_INFO: SiteInfo = {
   name: "زاد الخير",
   slogan: "أصالة الماضي وجودة الحاضر في منتجاتنا",
-  phone: "+20 10 21825314",
+  phone: "+20 1280079199",
   whatsapp: "+20 10 21825314",
   address: "الأسكندرية العجمي"
 };

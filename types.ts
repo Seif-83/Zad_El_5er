@@ -13,8 +13,13 @@ export enum Category {
   Oils = 'الزيوت',
   Sugar = 'السكر',
   Luncheon = 'لانشون',
-  Canned_food = 'معلبات'
-
+  Canned_food = 'معلبات',
+  Sauces = 'صوصات',
+  Dairy = 'ألبان',
+  Yogurt = 'زبادي',
+  Candies = 'حلويات',
+  Detergents = 'منظفات',
+  Macaroni = 'مكرونه'
 }
 
 export interface Product {
