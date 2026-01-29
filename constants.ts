@@ -335,5 +335,383 @@ export const PRODUCTS: Product[] = [
     unit: 'عبوة',
     description: 'منظف سيترس القوي لجميع الأغراض.',
     image: 'images/منظف سيترس.jpeg'
+  },
+  {
+    id: '37',
+    name: 'بهارات فراخ بدون اي اضافات',
+    category: Category.Spices,
+    price: 0,
+    unit: 'عبوة',
+    description: 'بهارات فراخ بدون اي اضافات',
+    image: 'images/بهارات فراخ بدون اي اضافات.jpeg'
+  },
+  {
+    id: '38',
+    name: 'بيكنج بودر تاج الملوك',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'بيكنج بودر تاج الملوك',
+    image: 'images/بيكنج بودر تاج الملوك.jpeg'
+  },
+  {
+    id: '39',
+    name: 'تتبيلة البطاطس',
+    category: Category.Spices,
+    price: 0,
+    unit: 'عبوة',
+    description: 'تتبيلة البطاطس',
+    image: 'images/تتبيلة البطاطس.jpeg'
+  },
+  {
+    id: '40',
+    name: 'ثوم مفروم',
+    category: Category.Spices,
+    price: 0,
+    unit: 'عبوة',
+    description: 'ثوم مفروم',
+    image: 'images/ثوم مفروم.jpeg'
+  },
+  {
+    id: '41',
+    name: 'جبنة ابو الولد',
+    category: Category.Cheese,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جبنة ابو الولد',
+    image: 'images/جبنة ابو الولد.jpeg'
+  },
+  {
+    id: '42',
+    name: 'جبنة المراعي',
+    category: Category.Cheese,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جبنة المراعي',
+    image: 'images/جبنة المراعي.jpeg'
+  },
+  {
+    id: '43',
+    name: 'جبنة دومتي بلس',
+    category: Category.Cheese,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جبنة دومتي بلس',
+    image: 'images/جبنة دومتي بلس.jpeg'
+  },
+  {
+    id: '44',
+    name: 'جبنة دومتي',
+    category: Category.Cheese,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جبنة دومتي',
+    image: 'images/جبنة دومتي.jpeg'
+  },
+  {
+    id: '45',
+    name: 'جبنة رودس',
+    category: Category.Cheese,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جبنة رودس',
+    image: 'images/جبنة رودس.jpeg'
+  },
+  {
+    id: '46',
+    name: 'جبنة عبورلاند',
+    category: Category.Cheese,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جبنة عبورلاند',
+    image: 'images/جبنة عبورلاند.jpeg'
+  },
+  {
+    id: '47',
+    name: 'جبنة لافاشكري',
+    category: Category.Cheese,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جبنة لافاشكري',
+    image: 'images/جبنة لافاشكري.jpeg'
+  },
+  {
+    id: '48',
+    name: 'جبنة مزارع دينا',
+    category: Category.Cheese,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جبنة مزارع دينا',
+    image: 'images/جبنة مزارع دينا.jpeg'
+  },
+  {
+    id: '49',
+    name: 'جبنة ميلكانا',
+    category: Category.Cheese,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جبنة ميلكانا',
+    image: 'images/جبنة ميلكانا.jpeg'
+  },
+  {
+    id: '50',
+    name: 'جيلي دريم',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جيلي دريم',
+    image: 'images/جيلي دريم.jpeg'
+  },
+  {
+    id: '51',
+    name: 'حليب المراعي',
+    category: Category.Dairy,
+    price: 0,
+    unit: 'عبوة',
+    description: 'حليب المراعي',
+    image: 'images/حليب المراعي.jpeg'
+  },
+  {
+    id: '52',
+    name: 'حليب جهينة خالي الدسم',
+    category: Category.Dairy,
+    price: 0,
+    unit: 'عبوة',
+    description: 'حليب جهينة خالي الدسم',
+    image: 'images/حليب جهينة خالي الدسم.jpeg .jpeg'
+  },
+  {
+    id: '53',
+    name: 'حليب جهينة',
+    category: Category.Dairy,
+    price: 0,
+    unit: 'عبوة',
+    description: 'حليب جهينة',
+    image: 'images/حليب جهينة.jpeg'
+  },
+  {
+    id: '54',
+    name: 'حليب عبور لاند',
+    category: Category.Dairy,
+    price: 0,
+    unit: 'عبوة',
+    description: 'حليب عبور لاند',
+    image: 'images/حليب عبور لاند.jpeg'
+  },
+  {
+    id: '55',
+    name: 'حليب لامار',
+    category: Category.Dairy,
+    price: 0,
+    unit: 'عبوة',
+    description: 'حليب لامار',
+    image: 'images/حليب لامار.jpeg'
+  },
+  {
+    id: '56',
+    name: 'خلطة ال 11 بهار',
+    category: Category.Spices,
+    price: 0,
+    unit: 'عبوة',
+    description: 'خلطة ال 11 بهار',
+    image: 'images/خلطة ال 11 بهار.jpeg'
+  },
+  {
+    id: '57',
+    name: 'خلطة البشاميل',
+    category: Category.Spices,
+    price: 0,
+    unit: 'عبوة',
+    description: 'خلطة البشاميل',
+    image: 'images/خلطة البشاميل.jpeg'
+  },
+  {
+    id: '58',
+    name: 'خميرة جافة فورية',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'خميرة جافة فورية',
+    image: 'images/خميرة جافة فورية.jpeg'
+  },
+  {
+    id: '59',
+    name: 'خميرة فورية الرحاب',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'خميرة فورية الرحاب',
+    image: 'images/خميرة فورية الرحاب.jpeg'
+  },
+  {
+    id: '60',
+    name: 'سحلب حلو الشام',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'سحلب حلو الشام',
+    image: 'images/سحلب حلو الشام.jpeg'
+  },
+  {
+    id: '61',
+    name: 'صبونة كاماي',
+    category: Category.Detergents,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صبونة كاماي',
+    image: 'images/صبونة كاماي.jpeg'
+  },
+  {
+    id: '62',
+    name: 'صلصة روسو',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صلصة روسو',
+    image: 'images/صلصة روسو.jpeg'
+  },
+  {
+    id: '63',
+    name: 'صلصة كنزي',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صلصة كنزي',
+    image: 'images/صلصة كنزي.jpeg'
+  },
+  {
+    id: '64',
+    name: 'صلصة هارفست',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صلصة هارفست',
+    image: 'images/صلصة هارفست.jpeg'
+  },
+  {
+    id: '65',
+    name: 'صلصة هينز',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صلصة هينز',
+    image: 'images/صلصة هينز.jpeg'
+  },
+  {
+    id: '66',
+    name: 'فانيلين بالسكر تاج الملوك',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'فانيلين بالسكر تاج الملوك',
+    image: 'images/فانيلين بالسكر تاج الملوك.jpeg'
+  },
+  {
+    id: '67',
+    name: 'فيجيتار حار',
+    category: Category.Spices,
+    price: 0,
+    unit: 'عبوة',
+    description: 'فيجيتار حار',
+    image: 'images/فيجيتار حار.jpeg'
+  },
+  {
+    id: '68',
+    name: 'كريمة كاسترد بالفانيلين',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'كريمة كاسترد بالفانيلين',
+    image: 'images/كريمة كاسترد بالفانيلين.jpeg'
+  },
+  {
+    id: '69',
+    name: 'كيك شيف دريم',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'كيك شيف دريم',
+    image: 'images/كيك شيف دريم.jpeg'
+  },
+  {
+    id: '70',
+    name: 'كيك شيكولانة',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'كيك شيكولانة',
+    image: 'images/كيك شيكولانة.jpeg'
+  },
+  {
+    id: '71',
+    name: 'مرقة الدجاج فاين فودز',
+    category: Category.Spices,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مرقة الدجاج فاين فودز',
+    image: 'images/مرقة الدجاج فاين فودز.jpeg'
+  },
+  {
+    id: '72',
+    name: 'مرقة خضروات فاين فودز',
+    category: Category.Spices,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مرقة خضروات فاين فودز',
+    image: 'images/مرقة خضروات فاين فودز.jpeg'
+  },
+  {
+    id: '73',
+    name: 'مرقة دجاج فورية',
+    category: Category.Spices,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مرقة دجاج فورية',
+    image: 'images/مرقة دجاج فورية.jpeg'
+  },
+  {
+    id: '74',
+    name: 'منظف برسيل',
+    category: Category.Detergents,
+    price: 0,
+    unit: 'عبوة',
+    description: 'منظف برسيل',
+    image: 'images/منظف برسيل.jpeg'
+  },
+  {
+    id: '75',
+    name: 'منظف فيبا',
+    category: Category.Detergents,
+    price: 0,
+    unit: 'عبوة',
+    description: 'منظف فيبا',
+    image: 'images/منظف فيبا.jpeg'
+  },
+  {
+    id: '76',
+    name: 'منظف كلوروكس',
+    category: Category.Detergents,
+    price: 0,
+    unit: 'عبوة',
+    description: 'منظف كلوروكس',
+    image: 'images/منظف كلوروكس.jpeg'
+  },
+  {
+    id: '77',
+    name: 'منظف كلوريل',
+    category: Category.Detergents,
+    price: 0,
+    unit: 'عبوة',
+    description: 'منظف كلوريل',
+    image: 'images/منظف كلوريل.jpeg'
+  },
+  {
+    id: '78',
+    name: 'نشا ذرة غذائي تاج الملوك',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'نشا ذرة غذائي تاج الملوك',
+    image: 'images/نشا ذرة غذائي تاج الملوك.jpeg'
   }
 ];

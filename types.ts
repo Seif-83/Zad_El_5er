@@ -20,7 +20,9 @@ export enum Category {
   Candies = 'حلويات',
   Detergents = 'منظفات',
   Macaroni = 'مكرونه',
-  baked_goods = 'المخبوزات'
+  baked_goods = 'المخبوزات',
+  Spices = 'العطارة',
+  Baking_Supplies = 'مستلزمات الحلويات'
 }
 
 export interface Product {
