@@ -48,14 +48,14 @@ const Header: React.FC = () => (
         <a href="#contact" className="hover:text-sky-600 transition-colors">اتصل بنا</a>
         <a href="#" className="hover:text-sky-600 transition-colors">( التوصيل مجانا )</a>
       </div>
-      <a 
+      <a
         href={`https://wa.me/${SITE_INFO.whatsapp.replace(/\s+/g, '')}?text=مرحباً، أود الاستفسار عن منتجات زاد الخير.`}
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2 transition-all hover:scale-105"
       >
         <span>اطلب الآن</span>
-        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.012 2c-5.508 0-9.987 4.479-9.987 9.987 0 1.763.459 3.419 1.261 4.864L2 22l5.306-1.394c1.402.766 2.997 1.201 4.706 1.201 5.508 0 9.987-4.479 9.987-9.987 0-5.508-4.479-9.987-9.987-9.987zm0 18.281c-1.574 0-3.051-.418-4.329-1.149l-.31-.178-3.21.843.858-3.132-.196-.312c-.799-1.278-1.221-2.759-1.221-4.347 0-4.571 3.72-8.291 8.291-8.291s8.291 3.72 8.291 8.291-3.72 8.291-8.291 8.291zm4.545-6.205c-.249-.125-1.472-.725-1.7-.808-.228-.083-.393-.125-.558.125-.165.249-.64.808-.784.974-.145.165-.29.186-.538.061s-1.049-.387-1.998-1.234c-.738-.658-1.236-1.471-1.381-1.72-.145-.249-.015-.384.109-.508.113-.111.249-.29.373-.435.125-.145.165-.249.249-.415.083-.165.041-.31-.021-.435s-.558-1.346-.764-1.843c-.2-.486-.403-.419-.558-.427-.144-.007-.31-.009-.476-.009s-.435.062-.662.31-.868.849-.868 2.071c0 1.221.889 2.402.993 2.547.104.145 1.75 2.673 4.239 3.745.592.255 1.054.408 1.414.523.595.189 1.137.162 1.565.098.477-.072 1.472-.601 1.679-1.181.206-.579.206-1.076.145-1.181-.062-.104-.228-.166-.476-.291z"/></svg>
+        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.012 2c-5.508 0-9.987 4.479-9.987 9.987 0 1.763.459 3.419 1.261 4.864L2 22l5.306-1.394c1.402.766 2.997 1.201 4.706 1.201 5.508 0 9.987-4.479 9.987-9.987 0-5.508-4.479-9.987-9.987-9.987zm0 18.281c-1.574 0-3.051-.418-4.329-1.149l-.31-.178-3.21.843.858-3.132-.196-.312c-.799-1.278-1.221-2.759-1.221-4.347 0-4.571 3.72-8.291 8.291-8.291s8.291 3.72 8.291 8.291-3.72 8.291-8.291 8.291zm4.545-6.205c-.249-.125-1.472-.725-1.7-.808-.228-.083-.393-.125-.558.125-.165.249-.64.808-.784.974-.145.165-.29.186-.538.061s-1.049-.387-1.998-1.234c-.738-.658-1.236-1.471-1.381-1.72-.145-.249-.015-.384.109-.508.113-.111.249-.29.373-.435.125-.145.165-.249.249-.415.083-.165.041-.31-.021-.435s-.558-1.346-.764-1.843c-.2-.486-.403-.419-.558-.427-.144-.007-.31-.009-.476-.009s-.435.062-.662.31-.868.849-.868 2.071c0 1.221.889 2.402.993 2.547.104.145 1.75 2.673 4.239 3.745.592.255 1.054.408 1.414.523.595.189 1.137.162 1.565.098.477-.072 1.472-.601 1.679-1.181.206-.579.206-1.076.145-1.181-.062-.104-.228-.166-.476-.291z" /></svg>
       </a>
     </div>
   </header>
@@ -64,8 +64,8 @@ const Header: React.FC = () => (
 const Hero: React.FC = () => (
   <section className="relative h-[45vh] md:h-[65vh] flex items-center justify-center overflow-hidden">
     <div className="absolute inset-0">
-      <img 
-        src="زاد الخير.jpg" 
+      <img
+        src="زاد الخير.jpg"
         alt="Spice market background"
         className="w-full h-full object-cover object-center"
       />
@@ -76,7 +76,7 @@ const Hero: React.FC = () => (
         أهلاً بكم في عالم الألبان
       </span>
       <h2 className="text-4xl md:text-6xl font-bold text-white font-serif-ar mb-6 leading-tight">
-        أجود أنواع الألبان والدواجن <br className="hidden md:block"/>
+        أجود أنواع الألبان والدواجن <br className="hidden md:block" />
         بين يديك في <span className="text-sky-400">زاد الخير</span>
       </h2>
       <p className="text-xl text-sky-50 font-light mb-8 max-w-2xl">
@@ -114,13 +114,13 @@ const ProductModal: React.FC<{ product: Product; onClose: () => void }> = ({ pro
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn" onClick={onClose}>
-      <div 
+      <div
         className="bg-white rounded-2xl max-w-2xl w-full overflow-hidden shadow-2xl animate-in zoom-in-95 duration-300"
         onClick={e => e.stopPropagation()}
       >
         <div className="relative h-64">
           <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
-          <button 
+          <button
             onClick={onClose}
             className="absolute top-4 right-4 bg-white/80 hover:bg-white p-2 rounded-full text-sky-900 shadow-md"
           >
@@ -139,7 +139,7 @@ const ProductModal: React.FC<{ product: Product; onClose: () => void }> = ({ pro
             </div>
           </div>
           <p className="text-gray-600 mb-6 text-lg">{product.description}</p>
-          
+
           <div className="bg-sky-50 rounded-xl p-5 border border-sky-100">
             <h4 className="font-bold text-sky-900 mb-2 flex items-center gap-2">
               <svg className="w-5 h-5 text-sky-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v-2h2v2zm0-4H9V5h2v4z"></path></svg>
@@ -160,7 +160,7 @@ const ProductModal: React.FC<{ product: Product; onClose: () => void }> = ({ pro
           </div>
 
           <div className="mt-8 flex gap-4">
-             <a 
+            <a
               href={`https://wa.me/${SITE_INFO.whatsapp.replace(/\s+/g, '')}?text=أريد طلب ${product.name}`}
               target="_blank"
               rel="noopener noreferrer"
@@ -176,14 +176,15 @@ const ProductModal: React.FC<{ product: Product; onClose: () => void }> = ({ pro
 };
 
 const ProductCard: React.FC<{ product: Product; onClick: () => void }> = ({ product, onClick }) => (
-  <div 
+  <div
     className="group bg-white rounded-2xl overflow-hidden border border-sky-50 shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-1 card-fade-in"
     onClick={onClick}
   >
     <div className="relative h-48 overflow-hidden">
-      <img 
-        src={product.image} 
-        alt={product.name} 
+      <img
+        src={product.image}
+        alt={product.name}
+        loading="lazy"
         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
       />
       {product.isOffer && (
@@ -220,6 +221,7 @@ export default function App() {
   const [activeCategory, setActiveCategory] = useState<Category | 'الكل'>('الكل');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [visibleCount, setVisibleCount] = useState(12);
 
   const offersRef = useRef<HTMLDivElement>(null);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -261,11 +263,20 @@ export default function App() {
   const filteredProducts = useMemo(() => {
     return PRODUCTS.filter(p => {
       const matchesCategory = activeCategory === 'الكل' || p.category === activeCategory;
-      const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                            p.description.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        p.description.toLowerCase().includes(searchQuery.toLowerCase());
       return matchesCategory && matchesSearch;
     });
   }, [activeCategory, searchQuery]);
+
+  // Reset visible count when filters change
+  useEffect(() => {
+    setVisibleCount(12);
+  }, [activeCategory, searchQuery]);
+
+  const displayedProducts = useMemo(() => {
+    return filteredProducts.slice(0, visibleCount);
+  }, [filteredProducts, visibleCount]);
 
   const offers = useMemo(() => PRODUCTS.filter(p => p.isOffer), []);
 
@@ -288,19 +299,19 @@ export default function App() {
         }
       `}</style>
       <Header />
-      
+
       <Hero />
 
       {/* Featured Offers */}
       {offers.length > 0 && (
-        <section 
+        <section
           ref={offersRef}
-          id="offers" 
+          id="offers"
           className={`py-16 bg-sky-900 overflow-hidden relative transition-all duration-1000 ${offersVisible ? 'section-fade-in' : 'opacity-0'}`}
         >
           <div className="absolute top-0 right-0 w-64 h-64 bg-sky-800/30 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-sky-800/20 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
-          
+
           <div className="max-w-7xl mx-auto px-4 relative z-10">
             <div className="flex items-center justify-between mb-10">
               <div>
@@ -308,14 +319,14 @@ export default function App() {
                 <p className="text-sky-200 mt-2">عروض حصرية لفترة محدودة</p>
               </div>
               <div className="flex gap-2">
-                 <div className="w-12 h-1 bg-sky-500"></div>
-                 <div className="w-6 h-1 bg-sky-700"></div>
+                <div className="w-12 h-1 bg-sky-500"></div>
+                <div className="w-6 h-1 bg-sky-700"></div>
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {offers.slice(0, 3).map((offer, index) => (
-                <div 
+                <div
                   key={offer.id}
                   style={{
                     animation: offersVisible ? `fadeInUp 0.6s ease-out forwards` : 'none',
@@ -346,9 +357,9 @@ export default function App() {
       )}
 
       {/* Main Menu Section */}
-      <section 
+      <section
         ref={menuRef}
-        id="menu" 
+        id="menu"
         className={`py-20 max-w-7xl mx-auto px-4 transition-all duration-1000 ${menuVisible ? 'section-fade-in' : 'opacity-0'}`}
       >
         <div className="text-center mb-12">
@@ -359,8 +370,8 @@ export default function App() {
         {/* Search & Filter */}
         <div className="flex flex-col md:flex-row gap-6 items-center justify-between mb-12 bg-white p-4 rounded-2xl shadow-sm border border-sky-50">
           <div className="relative w-full md:max-w-md">
-            <input 
-              type="text" 
+            <input
+              type="text"
               placeholder="ابحث عن البيض، الجبن، المربى..."
               className="w-full bg-sky-50 border-none rounded-xl py-3 px-12 focus:ring-2 focus:ring-sky-500 transition-all text-sky-900"
               value={searchQuery}
@@ -368,17 +379,16 @@ export default function App() {
             />
             <svg className="w-6 h-6 text-sky-400 absolute right-4 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
           </div>
-          
+
           <div className="flex gap-2 overflow-x-auto pb-2 w-full md:w-auto scrollbar-hide">
             {categories.map(cat => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat as any)}
-                className={`whitespace-nowrap px-6 py-2 rounded-xl font-bold transition-all ${
-                  activeCategory === cat 
-                    ? 'bg-sky-800 text-white shadow-md' 
+                className={`whitespace-nowrap px-6 py-2 rounded-xl font-bold transition-all ${activeCategory === cat
+                    ? 'bg-sky-800 text-white shadow-md'
                     : 'bg-sky-50 text-sky-800 hover:bg-sky-100'
-                }`}
+                  }`}
               >
                 {cat}
               </button>
@@ -388,22 +398,37 @@ export default function App() {
 
         {/* Products Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {filteredProducts.map((product, index) => (
-            <div 
+          {displayedProducts.map((product, index) => (
+            <div
               key={product.id}
               style={{
                 animation: menuVisible ? `fadeInUp 0.6s ease-out forwards` : 'none',
-                animationDelay: menuVisible ? `${index * 0.1}s` : '0s',
+                animationDelay: menuVisible ? `${index * 0.05}s` : '0s',
               }}
               className={menuVisible ? '' : 'opacity-0'}
             >
-              <ProductCard 
-                product={product} 
+              <ProductCard
+                product={product}
                 onClick={() => setSelectedProduct(product)}
               />
             </div>
           ))}
         </div>
+
+        {/* Load More Button */}
+        {visibleCount < filteredProducts.length && (
+          <div className="mt-12 text-center">
+            <button
+              onClick={() => setVisibleCount(prev => prev + 12)}
+              className="bg-white border border-sky-200 text-sky-800 px-8 py-3 rounded-xl font-bold hover:bg-sky-50 transition-all hover:shadow-md active:scale-95 flex items-center gap-2 mx-auto"
+            >
+              <span>عرض المزيد</span>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+          </div>
+        )}
 
         {filteredProducts.length === 0 && (
           <div className="text-center py-20">
@@ -417,9 +442,9 @@ export default function App() {
       </section>
 
       {/* Footer / Contact */}
-      <footer 
+      <footer
         ref={footerRef}
-        id="contact" 
+        id="contact"
         className={`bg-sky-950 text-white py-16 transition-all duration-1000 ${footerVisible ? 'section-fade-in' : 'opacity-0'}`}
       >
         <div className="max-w-7xl mx-auto px-4">
@@ -463,7 +488,7 @@ export default function App() {
                 </li>
                 <li className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center shrink-0">
-                    <svg className="w-5 h-5 text-sky-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12.012 2c-5.508 0-9.987 4.479-9.987 9.987 0 1.763.459 3.419 1.261 4.864L2 22l5.306-1.394c1.402.766 2.997 1.201 4.706 1.201 5.508 0 9.987-4.479 9.987-9.987 0-5.508-4.479-9.987-9.987-9.987zm0 18.281c-1.574 0-3.051-.418-4.329-1.149l-.31-.178-3.21.843.858-3.132-.196-.312c-.799-1.278-1.221-2.759-1.221-4.347 0-4.571 3.72-8.291 8.291-8.291s8.291 3.72 8.291 8.291-3.72 8.291-8.291 8.291zm4.545-6.205c-.249-.125-1.472-.725-1.7-.808-.228-.083-.393-.125-.558.125-.165.249-.64.808-.784.974-.145.165-.29.186-.538.061s-1.049-.387-1.998-1.234c-.738-.658-1.236-1.471-1.381-1.72-.145-.249-.015-.384.109-.508.113-.111.249-.29.373-.435.125-.145.165-.249.249-.415.083-.165.041-.31-.021-.435s-.558-1.346-.764-1.843c-.2-.486-.403-.419-.558-.427-.144-.007-.31-.009-.476-.009s-.435.062-.662.31-.868.849-.868 2.071c0 1.221.889 2.402.993 2.547.104.145 1.75 2.673 4.239 3.745.592.255 1.054.408 1.414.523.595.189 1.137.162 1.565.098.477-.072 1.472-.601 1.679-1.181.206-.579.206-1.076.145-1.181-.062-.104-.228-.166-.476-.291z"/></svg>
+                    <svg className="w-5 h-5 text-sky-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12.012 2c-5.508 0-9.987 4.479-9.987 9.987 0 1.763.459 3.419 1.261 4.864L2 22l5.306-1.394c1.402.766 2.997 1.201 4.706 1.201 5.508 0 9.987-4.479 9.987-9.987 0-5.508-4.479-9.987-9.987-9.987zm0 18.281c-1.574 0-3.051-.418-4.329-1.149l-.31-.178-3.21.843.858-3.132-.196-.312c-.799-1.278-1.221-2.759-1.221-4.347 0-4.571 3.72-8.291 8.291-8.291s8.291 3.72 8.291 8.291-3.72 8.291-8.291 8.291zm4.545-6.205c-.249-.125-1.472-.725-1.7-.808-.228-.083-.393-.125-.558.125-.165.249-.64.808-.784.974-.145.165-.29.186-.538.061s-1.049-.387-1.998-1.234c-.738-.658-1.236-1.471-1.381-1.72-.145-.249-.015-.384.109-.508.113-.111.249-.29.373-.435.125-.145.165-.249.249-.415.083-.165.041-.31-.021-.435s-.558-1.346-.764-1.843c-.2-.486-.403-.419-.558-.427-.144-.007-.31-.009-.476-.009s-.435.062-.662.31-.868.849-.868 2.071c0 1.221.889 2.402.993 2.547.104.145 1.75 2.673 4.239 3.745.592.255 1.054.408 1.414.523.595.189 1.137.162 1.565.098.477-.072 1.472-.601 1.679-1.181.206-.579.206-1.076.145-1.181-.062-.104-.228-.166-.476-.291z" /></svg>
                   </div>
                   <div>
                     <span className="block text-sm text-sky-200/50">واتساب</span>
@@ -491,20 +516,20 @@ export default function App() {
       </footer>
 
       {/* Floating WhatsApp Action Button (Mobile) */}
-      <a 
+      <a
         href={`https://wa.me/${SITE_INFO.whatsapp.replace(/\s+/g, '')}`}
         target="_blank"
         rel="noopener noreferrer"
         className="md:hidden fixed bottom-6 left-6 z-50 bg-green-600 text-white p-4 rounded-full shadow-2xl animate-pulse"
       >
-        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.012 2c-5.508 0-9.987 4.479-9.987 9.987 0 1.763.459 3.419 1.261 4.864L2 22l5.306-1.394c1.402.766 2.997 1.201 4.706 1.201 5.508 0 9.987-4.479 9.987-9.987 0-5.508-4.479-9.987-9.987-9.987zm0 18.281c-1.574 0-3.051-.418-4.329-1.149l-.31-.178-3.21.843.858-3.132-.196-.312c-.799-1.278-1.221-2.759-1.221-4.347 0-4.571 3.72-8.291 8.291-8.291s8.291 3.72 8.291 8.291-3.72 8.291-8.291 8.291zm4.545-6.205c-.249-.125-1.472-.725-1.7-.808-.228-.083-.393-.125-.558.125-.165.249-.64.808-.784.974-.145.165-.29.186-.538.061s-1.049-.387-1.998-1.234c-.738-.658-1.236-1.471-1.381-1.72-.145-.249-.015-.384.109-.508.113-.111.249-.29.373-.435.125-.145.165-.249.249-.415.083-.165.041-.31-.021-.435s-.558-1.346-.764-1.843c-.2-.486-.403-.419-.558-.427-.144-.007-.31-.009-.476-.009s-.435.062-.662.31-.868.849-.868 2.071c0 1.221.889 2.402.993 2.547.104.145 1.75 2.673 4.239 3.745.592.255 1.054.408 1.414.523.595.189 1.137.162 1.565.098.477-.072 1.472-.601 1.679-1.181.206-.579.206-1.076.145-1.181-.062-.104-.228-.166-.476-.291z"/></svg>
+        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.012 2c-5.508 0-9.987 4.479-9.987 9.987 0 1.763.459 3.419 1.261 4.864L2 22l5.306-1.394c1.402.766 2.997 1.201 4.706 1.201 5.508 0 9.987-4.479 9.987-9.987 0-5.508-4.479-9.987-9.987-9.987zm0 18.281c-1.574 0-3.051-.418-4.329-1.149l-.31-.178-3.21.843.858-3.132-.196-.312c-.799-1.278-1.221-2.759-1.221-4.347 0-4.571 3.72-8.291 8.291-8.291s8.291 3.72 8.291 8.291-3.72 8.291-8.291 8.291zm4.545-6.205c-.249-.125-1.472-.725-1.7-.808-.228-.083-.393-.125-.558.125-.165.249-.64.808-.784.974-.145.165-.29.186-.538.061s-1.049-.387-1.998-1.234c-.738-.658-1.236-1.471-1.381-1.72-.145-.249-.015-.384.109-.508.113-.111.249-.29.373-.435.125-.145.165-.249.249-.415.083-.165.041-.31-.021-.435s-.558-1.346-.764-1.843c-.2-.486-.403-.419-.558-.427-.144-.007-.31-.009-.476-.009s-.435.062-.662.31-.868.849-.868 2.071c0 1.221.889 2.402.993 2.547.104.145 1.75 2.673 4.239 3.745.592.255 1.054.408 1.414.523.595.189 1.137.162 1.565.098.477-.072 1.472-.601 1.679-1.181.206-.579.206-1.076.145-1.181-.062-.104-.228-.166-.476-.291z" /></svg>
       </a>
 
       {/* Detail Modal */}
       {selectedProduct && (
-        <ProductModal 
-          product={selectedProduct} 
-          onClose={() => setSelectedProduct(null)} 
+        <ProductModal
+          product={selectedProduct}
+          onClose={() => setSelectedProduct(null)}
         />
       )}
     </div>
