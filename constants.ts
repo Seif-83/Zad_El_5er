@@ -227,5 +227,113 @@ export const PRODUCTS: Product[] = [
     unit: 'ربع كيلو',
     description: 'جبنة حمراء طازجة ذات نكهة غنية وقوام مثالي.',
     image: 'images/جبنه حمراء.jpeg'
+  },
+  {
+    id: '25',
+    name: 'سمنة جنة الصفراء',
+    category: Category.Oils,
+    price: 100,
+    unit: 'عبوة',
+    description: 'سمنة جنة الصفراء عالية الجودة.',
+    image: 'images/سمنة جنة الصفراء.jpeg'
+  },
+  {
+    id: '26',
+    name: 'سمنة روابي طعم القشطة',
+    category: Category.Oils,
+    price: 100,
+    unit: 'عبوة',
+    description: 'سمنة روابي بطعم القشطة الفلاحي.',
+    image: 'images/سمنة روابي طعم القشطة.jpeg'
+  },
+  {
+    id: '27',
+    name: 'سمنة روابي',
+    category: Category.Oils,
+    price: 100,
+    unit: 'عبوة',
+    description: 'سمنة روابي الأصلية.',
+    image: 'images/سمنة روابي.jpeg'
+  },
+  {
+    id: '28',
+    name: 'سمنة كريستال',
+    category: Category.Oils,
+    price: 100,
+    unit: 'عبوة',
+    description: 'سمنة كريستال بيضاء ونقية.',
+    image: 'images/سمنة كريستال.jpeg'
+  },
+  {
+    id: '29',
+    name: 'سمنة نيوزيلندي',
+    category: Category.Oils,
+    price: 150,
+    unit: 'عبوة',
+    description: 'سمنة نيوزيلندي فاخرة.',
+    image: 'images/سمنة نيوزيلندي.jpeg'
+  },
+  {
+    id: '30',
+    name: 'معطر فريدا',
+    category: Category.Detergents,
+    price: 50,
+    unit: 'عبوة',
+    description: 'معطر جو فريدا برائحة منعشة.',
+    image: 'images/معطر فريدا.jpeg'
+  },
+  {
+    id: '31',
+    name: 'مناديل زينا',
+    category: Category.Detergents,
+    price: 25,
+    unit: 'عبوة',
+    description: 'مناديل ورقية زينا ناعمة وقوية.',
+    image: 'images/مناديل زينا.jpeg'
+  },
+  {
+    id: '32',
+    name: 'مناديل فاميليا',
+    category: Category.Detergents,
+    price: 30,
+    unit: 'عبوة',
+    description: 'مناديل فاميليا الاقتصادية.',
+    image: 'images/مناديل فاميليا.jpeg'
+  },
+  {
+    id: '33',
+    name: 'مناديل ويت',
+    category: Category.Detergents,
+    price: 20,
+    unit: 'عبوة',
+    description: 'مناديل مبللة ويت.',
+    image: 'images/مناديل ويت.jpeg'
+  },
+  {
+    id: '34',
+    name: 'منظف اوكسي',
+    category: Category.Detergents,
+    price: 60,
+    unit: 'عبوة',
+    description: 'مسحوق غسيل اوكسي بقوة الأكسجين.',
+    image: 'images/منظف اوكسي.jpeg'
+  },
+  {
+    id: '35',
+    name: 'منظف بريل',
+    category: Category.Detergents,
+    price: 35,
+    unit: 'عبوة',
+    description: 'سائل تنظيف الأطباق بريل.',
+    image: 'images/منظف بريل.jpeg'
+  },
+  {
+    id: '36',
+    name: 'منظف سيترس',
+    category: Category.Detergents,
+    price: 55,
+    unit: 'عبوة',
+    description: 'منظف سيترس القوي لجميع الأغراض.',
+    image: 'images/منظف سيترس.jpeg'
   }
 ];
