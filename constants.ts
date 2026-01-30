@@ -762,7 +762,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '84',
     name: 'بسبوسة جوز الهند',
-    category: Category.Candies,
+    category: Category.Baking_Supplies,
     price: 0,
     unit: 'عبوة',
     description: 'بسبوسة جوز الهند',
