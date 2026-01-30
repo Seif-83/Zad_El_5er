@@ -76,8 +76,8 @@ const Hero: React.FC = () => (
         أهلاً بكم في عالم الألبان
       </span>
       <h2 className="text-4xl md:text-6xl font-bold text-white font-serif-ar mb-6 leading-tight">
-        أجود أنواع الألبان والدواجن <br className="hidden md:block" />
-        بين يديك في <span className="text-sky-400">زاد الخير</span>
+        أجود أنواع المستلزمات المنزلية <br className="hidden md:block" />
+        بين يديك في <span className="text-sky-400" style={{textShadow: '3px 3px 3px rgba(0, 0, 0, 1)'}}>زاد الخير</span>
       </h2>
       <p className="text-xl text-sky-50 font-light mb-8 max-w-2xl">
         {SITE_INFO.slogan}
