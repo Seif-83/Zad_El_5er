@@ -67,7 +67,7 @@ const Hero: React.FC = () => (
       <img
         src="زاد الخير.jpg"
         alt="Spice market background"
-        className="w-full h-full object-cover object-center blur-sm scale-110"
+        className="w-full h-full object-cover object-center blur-sm scale-90"
       />
       <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/40 to-transparent"></div>
     </div>
@@ -77,7 +77,7 @@ const Hero: React.FC = () => (
       </span>
       <h2 className="text-4xl md:text-6xl font-bold text-white font-serif-ar mb-6 leading-tight">
         أجود أنواع المستلزمات المنزلية <br className="hidden md:block" />
-        بين يديك في <span className="text-sky-400" style={{ textShadow: '3px 3px 3px rgba(0, 0, 0, 1)' }}>زاد الخير</span>
+        بين يديك في <span className="text-sky-400" style={{ textShadow: '0px 0px 6px rgba(0, 0, 0, 1)' }}>زاد الخير</span>
       </h2>
       <p className="text-xl text-sky-50 font-light mb-8 max-w-2xl">
         {SITE_INFO.slogan}
