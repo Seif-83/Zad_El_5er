@@ -67,7 +67,7 @@ const Hero: React.FC = () => (
       <img
         src="زاد الخير.jpg"
         alt="Spice market background"
-        className="w-full h-full object-cover object-center blur-sm scale-90"
+        className="w-full h-full object-cover object-center blur-sm scale-110"
       />
       <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/40 to-transparent"></div>
     </div>
