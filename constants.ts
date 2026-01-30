@@ -76,7 +76,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '8',
     name: 'مصر كافيه',
-    category: Category.Beverage,
+    category: Category.Coffee,
     price: 105,
     unit: '50 جرام',
     description: 'قهوة مصرية بالنكهة الأصيلة.',
@@ -139,7 +139,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '15',
     name: 'عسل بالمكسرات',
-    category: Category.Nuts,
+    category: Category.honey,
     price: 150,
     unit: 'برطمان',
     description: 'عسل طبيعي مع مزيج من المكسرات الفاخرة.',
@@ -202,7 +202,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '22',
     name: 'بيض احمر و ابيض',
-    category: Category.Eggs,
+    category: Category.Dairy,
     price: 125,
     unit: 'كرتونة',
     description: 'بيض بلدي طازج عالي الجودة من مزارع محلية.',
@@ -717,7 +717,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '79',
     name: 'balance',
-    category: Category.Beverage,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'balance',
