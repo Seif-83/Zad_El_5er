@@ -726,7 +726,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '80',
     name: 'ايس كريم كونو',
-    category: Category.Ice_Cream,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'ايس كريم كونو',
@@ -735,7 +735,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '81',
     name: 'ايس كريم ميجا',
-    category: Category.Ice_Cream,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'ايس كريم ميجا',
@@ -744,7 +744,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '82',
     name: 'باتيه BRUNCH',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'باتيه BRUNCH',
@@ -753,7 +753,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '83',
     name: 'بريك',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'بريك',
@@ -762,7 +762,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '84',
     name: 'بسبوسة جوز الهند',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'بسبوسة جوز الهند',
@@ -771,7 +771,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '85',
     name: 'بسكوت HD',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'بسكوت HD',
@@ -807,7 +807,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '89',
     name: 'بيج شيبس',
-    category: Category.Snacks,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'بيج شيبس',
@@ -816,7 +816,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '90',
     name: 'بيك رولز',
-    category: Category.Snacks,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'بيك رولز',
@@ -825,7 +825,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '91',
     name: 'جاجوار',
-    category: Category.Snacks,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'جاجوار',
@@ -870,7 +870,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '96',
     name: 'دنش فرجللو',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'دنش فرجللو',
@@ -915,7 +915,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '101',
     name: 'شيبسي تايجر',
-    category: Category.Snacks,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'شيبسي تايجر',
@@ -924,7 +924,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '102',
     name: 'شيبسي كرانشي',
-    category: Category.Snacks,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'شيبسي كرانشي',
@@ -933,7 +933,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '103',
     name: 'شيبسي',
-    category: Category.Snacks,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'شيبسي',
@@ -1041,7 +1041,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '115',
     name: 'كيكة توينكس دو',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'كيكة توينكس دو',
@@ -1050,7 +1050,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '116',
     name: 'كيكة توينكس',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'كيكة توينكس',
@@ -1059,7 +1059,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '117',
     name: 'كيكة هوهوس',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'كيكة هوهوس',
@@ -1284,7 +1284,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '142',
     name: 'مولتو EXTRA',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'مولتو EXTRA',
@@ -1293,7 +1293,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '143',
     name: 'مولتو مكس',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'مولتو مكس',
@@ -1302,7 +1302,7 @@ export const PRODUCTS: Product[] = [
   {
     id: '144',
     name: 'مولتو',
-    category: Category.baked_goods,
+    category: Category.Candies,
     price: 0,
     unit: 'عبوة',
     description: 'مولتو',
