@@ -22,7 +22,10 @@ export enum Category {
   Macaroni = 'مكرونه',
   baked_goods = 'المخبوزات',
   Spices = 'العطارة',
-  Baking_Supplies = 'مستلزمات الحلويات'
+  Baking_Supplies = 'مستلزمات الحلويات',
+  Coffee = 'البن',
+  Snacks = 'المقرمشات',
+  Ice_Cream = 'أيس كريم'
 }
 
 export interface Product {

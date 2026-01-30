@@ -713,5 +713,599 @@ export const PRODUCTS: Product[] = [
     unit: 'عبوة',
     description: 'نشا ذرة غذائي تاج الملوك',
     image: 'images/نشا ذرة غذائي تاج الملوك.jpeg'
+  },
+  {
+    id: '79',
+    name: 'balance',
+    category: Category.Beverage,
+    price: 0,
+    unit: 'عبوة',
+    description: 'balance',
+    image: 'images/balance.jpeg'
+  },
+  {
+    id: '80',
+    name: 'ايس كريم كونو',
+    category: Category.Ice_Cream,
+    price: 0,
+    unit: 'عبوة',
+    description: 'ايس كريم كونو',
+    image: 'images/ايس كريم كونو.jpeg'
+  },
+  {
+    id: '81',
+    name: 'ايس كريم ميجا',
+    category: Category.Ice_Cream,
+    price: 0,
+    unit: 'عبوة',
+    description: 'ايس كريم ميجا',
+    image: 'images/ايس كريم ميجا.jpeg'
+  },
+  {
+    id: '82',
+    name: 'باتيه BRUNCH',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'باتيه BRUNCH',
+    image: 'images/باتيه BRUNCH.jpeg'
+  },
+  {
+    id: '83',
+    name: 'بريك',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'بريك',
+    image: 'images/بريك.jpeg'
+  },
+  {
+    id: '84',
+    name: 'بسبوسة جوز الهند',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'بسبوسة جوز الهند',
+    image: 'images/بسبوسة جوز الهند.jpeg'
+  },
+  {
+    id: '85',
+    name: 'بسكوت HD',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'بسكوت HD',
+    image: 'images/بسكوت HD.jpeg'
+  },
+  {
+    id: '86',
+    name: 'بن سادة فاتح النجار',
+    category: Category.Coffee,
+    price: 0,
+    unit: 'عبوة',
+    description: 'بن سادة فاتح النجار',
+    image: 'images/بن سادة فاتح النجار.jpeg'
+  },
+  {
+    id: '87',
+    name: 'بن سادة فاتح عبد المعبود',
+    category: Category.Coffee,
+    price: 0,
+    unit: 'عبوة',
+    description: 'بن سادة فاتح عبد المعبود',
+    image: 'images/بن سادة فاتح عبد المعبود.jpeg'
+  },
+  {
+    id: '88',
+    name: 'بن محوج مخصوص عبد المعبود',
+    category: Category.Coffee,
+    price: 0,
+    unit: 'عبوة',
+    description: 'بن محوج مخصوص عبد المعبود',
+    image: 'images/بن محوج مخصوص عبد المعبود.jpeg'
+  },
+  {
+    id: '89',
+    name: 'بيج شيبس',
+    category: Category.Snacks,
+    price: 0,
+    unit: 'عبوة',
+    description: 'بيج شيبس',
+    image: 'images/بيج شيبس.jpeg'
+  },
+  {
+    id: '90',
+    name: 'بيك رولز',
+    category: Category.Snacks,
+    price: 0,
+    unit: 'عبوة',
+    description: 'بيك رولز',
+    image: 'images/بيك رولز.jpeg'
+  },
+  {
+    id: '91',
+    name: 'جاجوار',
+    category: Category.Snacks,
+    price: 0,
+    unit: 'عبوة',
+    description: 'جاجوار',
+    image: 'images/جاجوار.jpeg'
+  },
+  {
+    id: '92',
+    name: 'حلاوة البوادي',
+    category: Category.Candies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'حلاوة البوادي',
+    image: 'images/حلاوة البوادي.jpeg'
+  },
+  {
+    id: '93',
+    name: 'دقيق فاخر الضحى',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'دقيق فاخر الضحى',
+    image: 'images/دقيق فاخر الضحى.jpeg'
+  },
+  {
+    id: '94',
+    name: 'دقيق فاخر سي منعم',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'دقيق فاخر سي منعم',
+    image: 'images/دقيق فاخر سي منعم.jpeg'
+  },
+  {
+    id: '95',
+    name: 'دقيق فاخر عشرة عمر',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'دقيق فاخر عشرة عمر',
+    image: 'images/دقيق فاخر عشرة عمر.jpeg'
+  },
+  {
+    id: '96',
+    name: 'دنش فرجللو',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'دنش فرجللو',
+    image: 'images/دنش فرجللو.jpeg'
+  },
+  {
+    id: '97',
+    name: 'زيت الممتاز',
+    category: Category.Oils,
+    price: 0,
+    unit: 'عبوة',
+    description: 'زيت الممتاز',
+    image: 'images/زيت الممتاز.jpeg'
+  },
+  {
+    id: '98',
+    name: 'زيت حلوة',
+    category: Category.Oils,
+    price: 0,
+    unit: 'عبوة',
+    description: 'زيت حلوة',
+    image: 'images/زيت حلوة.jpeg'
+  },
+  {
+    id: '99',
+    name: 'زيت كريستال',
+    category: Category.Oils,
+    price: 0,
+    unit: 'عبوة',
+    description: 'زيت كريستال',
+    image: 'images/زيت كريستال.jpeg'
+  },
+  {
+    id: '100',
+    name: 'شوكولاتة Rollana',
+    category: Category.Candies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'شوكولاتة Rollana',
+    image: 'images/شوكولاتة Rollana.jpeg'
+  },
+  {
+    id: '101',
+    name: 'شيبسي تايجر',
+    category: Category.Snacks,
+    price: 0,
+    unit: 'عبوة',
+    description: 'شيبسي تايجر',
+    image: 'images/شيبسي تايجر.jpeg'
+  },
+  {
+    id: '102',
+    name: 'شيبسي كرانشي',
+    category: Category.Snacks,
+    price: 0,
+    unit: 'عبوة',
+    description: 'شيبسي كرانشي',
+    image: 'images/شيبسي كرانشي.jpeg'
+  },
+  {
+    id: '103',
+    name: 'شيبسي',
+    category: Category.Snacks,
+    price: 0,
+    unit: 'عبوة',
+    description: 'شيبسي',
+    image: 'images/شيبسي.jpeg'
+  },
+  {
+    id: '104',
+    name: 'صلصة طماطم اد-مي',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صلصة طماطم اد-مي',
+    image: 'images/صلصة طماطم اد-مي.jpeg'
+  },
+  {
+    id: '105',
+    name: 'صلصة طماطم هارفست',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صلصة طماطم هارفست',
+    image: 'images/صلصة طماطم هارفست.jpeg'
+  },
+  {
+    id: '106',
+    name: 'صوص باربكيو',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صوص باربكيو',
+    image: 'images/صوص باربكيو.jpeg'
+  },
+  {
+    id: '107',
+    name: 'صوص كاتشب',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صوص كاتشب',
+    image: 'images/صوص كاتشب.jpeg'
+  },
+  {
+    id: '108',
+    name: 'صوص مايونيز حار اد-مي',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صوص مايونيز حار اد-مي',
+    image: 'images/صوص مايونيز حار اد-مي.jpeg'
+  },
+  {
+    id: '109',
+    name: 'صوص مايونيز',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صوص مايونيز',
+    image: 'images/صوص مايونيز.jpeg'
+  },
+  {
+    id: '110',
+    name: 'صوص مستردة جياردينو',
+    category: Category.Sauces,
+    price: 0,
+    unit: 'عبوة',
+    description: 'صوص مستردة جياردينو',
+    image: 'images/صوص مستردة جياردينو.jpeg'
+  },
+  {
+    id: '111',
+    name: 'عصير بيتي',
+    category: Category.Beverage,
+    price: 0,
+    unit: 'عبوة',
+    description: 'عصير بيتي',
+    image: 'images/عصير بيتي.jpeg'
+  },
+  {
+    id: '112',
+    name: 'عصير جهينه بيور',
+    category: Category.Beverage,
+    price: 0,
+    unit: 'عبوة',
+    description: 'عصير جهينه بيور',
+    image: 'images/عصير جهينه بيور.jpeg'
+  },
+  {
+    id: '113',
+    name: 'عصير جهينه مكس',
+    category: Category.Beverage,
+    price: 0,
+    unit: 'عبوة',
+    description: 'عصير جهينه مكس',
+    image: 'images/عصير جهينه مكس.jpeg'
+  },
+  {
+    id: '114',
+    name: 'عصير جهينه',
+    category: Category.Beverage,
+    price: 0,
+    unit: 'عبوة',
+    description: 'عصير جهينه',
+    image: 'images/عصير جهينه.jpeg'
+  },
+  {
+    id: '115',
+    name: 'كيكة توينكس دو',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'كيكة توينكس دو',
+    image: 'images/كيكة توينكس دو.jpeg'
+  },
+  {
+    id: '116',
+    name: 'كيكة توينكس',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'كيكة توينكس',
+    image: 'images/كيكة توينكس.jpeg'
+  },
+  {
+    id: '117',
+    name: 'كيكة هوهوس',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'كيكة هوهوس',
+    image: 'images/كيكة هوهوس.jpeg'
+  },
+  {
+    id: '118',
+    name: 'لازانيا الملكة',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'لازانيا الملكة',
+    image: 'images/لازانيا الملكة.jpeg'
+  },
+  {
+    id: '119',
+    name: 'لسان عصفور الملكة ازرق',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'لسان عصفور الملكة ازرق',
+    image: 'images/لسان عصفور الملكة ازرق.jpeg'
+  },
+  {
+    id: '120',
+    name: 'ماء ورد لاروز',
+    category: Category.Baking_Supplies,
+    price: 0,
+    unit: 'عبوة',
+    description: 'ماء ورد لاروز',
+    image: 'images/ماء ورد لاروز.jpeg'
+  },
+  {
+    id: '121',
+    name: 'مشروب Vamos',
+    category: Category.Beverage,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مشروب Vamos',
+    image: 'images/مشروب Vamos.jpeg'
+  },
+  {
+    id: '122',
+    name: 'مكرونة اسباجتي الملكة',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة اسباجتي الملكة',
+    image: 'images/مكرونة اسباجتي الملكة.jpeg'
+  },
+  {
+    id: '123',
+    name: 'مكرونة اقلام الملكة',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة اقلام الملكة',
+    image: 'images/مكرونة اقلام الملكة.jpeg'
+  },
+  {
+    id: '124',
+    name: 'مكرونة اقلام ايطاليانو بلس',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة اقلام ايطاليانو بلس',
+    image: 'images/مكرونة اقلام ايطاليانو بلس.jpeg'
+  },
+  {
+    id: '125',
+    name: 'مكرونة اقلام حواء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة اقلام حواء',
+    image: 'images/مكرونة اقلام حواء.jpeg'
+  },
+  {
+    id: '126',
+    name: 'مكرونة حلزوني',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة حلزوني',
+    image: 'images/مكرونة حلزوني.jpeg'
+  },
+  {
+    id: '127',
+    name: 'مكرونة شرايح ايطاليانو',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة شرايح ايطاليانو',
+    image: 'images/مكرونة شرايح ايطاليانو.jpeg'
+  },
+  {
+    id: '128',
+    name: 'مكرونة شعرية الملكة حمراء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة شعرية الملكة حمراء',
+    image: 'images/مكرونة شعرية الملكة حمراء.jpeg'
+  },
+  {
+    id: '129',
+    name: 'مكرونة شعرية الملكة زرقاء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة شعرية الملكة زرقاء',
+    image: 'images/مكرونة شعرية الملكة زرقاء.jpeg'
+  },
+  {
+    id: '130',
+    name: 'مكرونة شعرية حواء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة شعرية حواء',
+    image: 'images/مكرونة شعرية حواء.jpeg'
+  },
+  {
+    id: '131',
+    name: 'مكرونة عقل صغيرة الملكة زرقاء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة عقل صغيرة الملكة زرقاء',
+    image: 'images/مكرونة عقل صغيرة الملكة زرقاء.jpeg'
+  },
+  {
+    id: '132',
+    name: 'مكرونة عقل صغيرة ايطاليانو بلس',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة عقل صغيرة ايطاليانو بلس',
+    image: 'images/مكرونة عقل صغيرة ايطاليانو بلس.jpeg'
+  },
+  {
+    id: '133',
+    name: 'مكرونة عقل صغيرة حواء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة عقل صغيرة حواء',
+    image: 'images/مكرونة عقل صغيرة حواء.jpeg'
+  },
+  {
+    id: '134',
+    name: 'مكرونة عقل صغيرة رجينا',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة عقل صغيرة رجينا',
+    image: 'images/مكرونة عقل صغيرة رجينا.jpeg'
+  },
+  {
+    id: '135',
+    name: 'مكرونة عقل كبيرة الملكة حمراء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة عقل كبيرة الملكة حمراء',
+    image: 'images/مكرونة عقل كبيرة الملكة حمراء.jpeg'
+  },
+  {
+    id: '136',
+    name: 'مكرونة عقل كبيرة الملكة زرقاء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة عقل كبيرة الملكة زرقاء',
+    image: 'images/مكرونة عقل كبيرة الملكة زرقاء.jpeg'
+  },
+  {
+    id: '137',
+    name: 'مكرونة عقل كبيرة حواء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة عقل كبيرة حواء',
+    image: 'images/مكرونة عقل كبيرة حواء.jpeg'
+  },
+  {
+    id: '138',
+    name: 'مكرونة كوع الملكة حمراء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة كوع الملكة حمراء',
+    image: 'images/مكرونة كوع الملكة حمراء.jpeg'
+  },
+  {
+    id: '139',
+    name: 'مكرونة كوع الملكة زرقاء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة كوع الملكة زرقاء',
+    image: 'images/مكرونة كوع الملكة زرقاء.jpeg'
+  },
+  {
+    id: '140',
+    name: 'مكرونة كوع حواء',
+    category: Category.Macaroni,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مكرونة كوع حواء',
+    image: 'images/مكرونة كوع حواء.jpeg'
+  },
+  {
+    id: '141',
+    name: 'ملح الخير',
+    category: Category.Spices,
+    price: 0,
+    unit: 'عبوة',
+    description: 'ملح الخير',
+    image: 'images/ملح الخير.jpeg'
+  },
+  {
+    id: '142',
+    name: 'مولتو EXTRA',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مولتو EXTRA',
+    image: 'images/مولتو EXTRA.jpeg'
+  },
+  {
+    id: '143',
+    name: 'مولتو مكس',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مولتو مكس',
+    image: 'images/مولتو مكس.jpeg'
+  },
+  {
+    id: '144',
+    name: 'مولتو',
+    category: Category.baked_goods,
+    price: 0,
+    unit: 'عبوة',
+    description: 'مولتو',
+    image: 'images/مولتو.jpeg'
   }
 ];
